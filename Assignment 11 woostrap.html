@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Woofstrap assignment</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+
+    </style>
+  </head>
+
+
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Woofstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Neymar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About soccer</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">How it works</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">More</a>
+                    <ul class="dropdown-menu">
+                        <a class="nav-link" href="#"><img src="data:image/jpeg;base64,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"></a>
+
+                    </ul>
+                </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div class="container-sm">
+        <h1>Woofstrap</h1>
+        <p>Woofstrap is the first website entirely dedicated to great players.</p>
+        <p>It looks better now with space.</p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Neymar_PSG.jpg/175px-Neymar_PSG.jpg">
+    </div>
+    </br>
+    </br>
+
+    <div class="row" style="background-color: rgb(56, 56, 58); ">
+        <div class="col-12 col-sm-6 col-md-4">
+        </br>
+        </br>
+            <div class="card" style="width: 18rem; margin-left: 30%" >
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr26ENaD_eflXkK5Qj3wHe-kbPhGTOyNp9fw&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Neymar Jr</h5>
+                    <p class="card-text">The Joga Bonito</p>                
+                </div>
+            </div>   
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4">
+            <h4 style="text-align: center; color: white;"> Meet the Ney</h4>
+            <div class="card" style="width: 18rem; margin-left: 15%">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr26ENaD_eflXkK5Qj3wHe-kbPhGTOyNp9fw&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Neymar Jr</h5>
+                    <p class="card-text">The Joga Bonito</p>                
+                </div>
+            </div>   
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4" style="width: 18rem; margin-left: ;">
+        </br>
+        </br>
+            <div class="card">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr26ENaD_eflXkK5Qj3wHe-kbPhGTOyNp9fw&usqp=CAU" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Neymar Jr</h5>
+                    <p class="card-text">The Joga Bonito</p>                
+                </div>
+            </div>   
+        </div>
+    </div>
+    </br>
+    </br>
+
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-6"><img src="https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2022%2F0630%2Fr1030749_1296x729_16%2D9.jpg" width="600px" height="400px"></div>
+            <div class="col-12 col-sm-6 col-md-6"><p>His professional career at Santos FC in Brazil where he quickly established himself as a rising star. He especially became famous when he helped the Santos FC team win their first Copa Libertadores in nearly 50 years. His career start got compared to some of the greatest’ in the game like Romario’s or even the “KING’ Pele’s.  In 2009, he won the Puskas award synonym of the best goal of the year leaving the kind of Kaka or Ronaldo CR7 in the dust. A terrific display in the Confederations Cup in 2013 attracted the greatest clubs like Barcelona FC or Arsenal FC. He finally chose to move to Barcelona FC and became part of the likely best attacking trio soccer have ever witness. He linked up with Luis Suarez and Lionel Messi. The three of them terrorized the soccer world for years. They won the treble ( La Liga, Copa Del Rey, Champions League) in 2015. Neymar was the joint top scorer of the champions league and Copa Del Rey that very year. This attacking tiro was leaving a dream as well as all soccer fans. However, life is not a fairy tale.</p>
+                <p>Are you convinced that Neymar is the best in the world?</p>
+                <button type="button" class="btn btn-primary">Yes</button>
+                <button type="button" class="btn btn-secondary">Of course</button>
+                <button type="button" class="btn btn-success">Never in doubt</button>
+            </div>
+        </div>
+    </div>
+    </br>
+    </br>
+    <hr>
+
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-12 col-sm-3 col-md-6">
+                <h2 style="text-align: center;">Brazil</h2>
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                        Who is Neymar ?
+                        </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body">
+                                His professional career at Santos FC in Brazil where he quickly established himself as a rising star. Neymar quickly became on eof the most known player in the world. His debut got compared to the likes of pele or Jairzinho.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                        Accordion Item #2
+                            </button>
+                        </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+
+                            </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                        Accordion Item #3
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body">
+                        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/https://youtube.com/shorts/xYtbgNRC4V8?si=lHkLQ5vrzDeIr7Kg"></iframe>
+            </div>
+        </div>
+    </div>
+    </br>
+
+    <div class="row" style="background-color: rgb(56, 56, 58); ">
+        <h2 style="text-align: center; color: beige;" >Our Idol</h2>
+        <div class="col-12 col-sm-6 col-md-2" style="">
+        </br>
+        </br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqgccyaigklTWeszSoYLGpphsQw9hxIEJhQ&usqp=CAU">
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-2" style="">
+        </br>
+        </br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqgccyaigklTWeszSoYLGpphsQw9hxIEJhQ&usqp=CAU">
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-2" style="">
+        </br>
+        </br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqgccyaigklTWeszSoYLGpphsQw9hxIEJhQ&usqp=CAU">
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-2" style="">
+        </br>
+        </br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqgccyaigklTWeszSoYLGpphsQw9hxIEJhQ&usqp=CAU">
+
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-2" style="">
+        </br>
+        </br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqgccyaigklTWeszSoYLGpphsQw9hxIEJhQ&usqp=CAU">
+
+        </div>
+        <div class="col-12 col-sm-6 col-md-2" style="">
+        </br>
+        </br>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShqgccyaigklTWeszSoYLGpphsQw9hxIEJhQ&usqp=CAU">
+        </div>
+        </br>
+        </br>
+    </div>
+    </br>
+    </br>
+
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-sm-3">
+                <div class="row">
+                    <h2 style="text-align: center;">Legends</h2>
+                    <p style="text-align: center;">Forwards of the SELECAO</p> 
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="card" style="width: 18rem;" >
+                            <img src="https://assets-global.website-files.com/5ee4005218269a8dff3c4ad8/6054ea5c29de3d7f573a9e15_Ronaldo%20R9%20Plei%20App%20Orlando.jpg" class="card-img-top" alt="..." >
+                            <div class="card-body">
+                                <h5 class="card-title">Ronaldo R9</h5>
+                                <p class="card-text">Colonel Monkey</p>  
+                                <a href="#" class="btn btn-primary">Estadio Maracana</a>
+              
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="col-12 col-sm-6 col-sm-3">
+                        <div class="card" style="width: 18rem;" >
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/8/8f/Jairzinho_1970s.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Jairzinho</h5>
+                                <p class="card-text">General How</p>
+                                <a href="#" class="btn btn-primary">Estadio MAracana</a>
+                
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-sm-6">
+                <h2 style="text-align: center;">Contact me</h2>
+                <p style="text-align: center;">Want to learn about soccer? Do not hesitate</p>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/e/eb/MFdSantos-Garrincha.jpg" height="300px" width="400px">
+                </br>
+                </br>
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label"><strong>Email Address</strong> </label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label"><strong>Password</strong></label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Verify</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    </br>
+    </br>
+    </br>
+
+    <div style="background-color: rgb(56, 56, 58); ">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;">Neymar</div>
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;">is </div>
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;">the </div>
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;">best</div>
+        </div>
+    </div>
+    <div style="background-color: rgb(56, 56, 58); ">
+        <div class="row">
+            
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;"> <a href="">Neymar</a></div>
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;"><a href="">Neymar</a></div>
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;"><a href="">Neymar</a></div>
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;"><a href="">Neymar</a></div>
+        </div>
+    </div>
+    <div style="background-color: rgb(56, 56, 58); ">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3" style="color: aliceblue;"><a href="">is</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">is</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">is</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">is</a></div>
+        </div>
+    </div>
+    <div style="background-color: rgb(56, 56, 58); ">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">the</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">the</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">the</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">the</a></div>
+        </div>
+    </div>
+    <div style="background-color: rgb(56, 56, 58); ">
+        <div class="row">
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">best</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">best</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">best</a></div>
+            <div class="col-12 col-sm-6 col-md-3"style="color: aliceblue;"><a href="">best</a></div>
+        </div>
+    </div>
+
+  </body>
+</html>
